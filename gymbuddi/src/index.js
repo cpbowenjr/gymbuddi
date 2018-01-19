@@ -10,6 +10,7 @@ import Login from './components/login/login';
 import Dashboard from './components/dashboard/dashboard';
 import {Provider} from 'react-redux';
 import createStore from './store';
+import Payments from './components/stripe/stripe';
 
 ReactDOM.render(
     <HashRouter>
@@ -20,7 +21,7 @@ ReactDOM.render(
                 <Route path='/nutrition' component={Nutrition} />
                 <Route path='/trainers' component={Trainers} />
                 <Route path='/login' component={Login} />
-                <Route path='/dashboard' component={Dashboard} />
+                <Route path='/dashboard' component={Dashboard} />        
             </Switch>
         </Provider>
     </HashRouter>
