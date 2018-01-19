@@ -1,0 +1,28 @@
+.dashboard-page {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-info {
+    justify-content: center;
+ }
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+}
+
+.username {
+    color: white;
+}
+
+.user-email {
+    color: white;
+}
+
+.user-id {
+    color: white;
+}
